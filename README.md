@@ -67,9 +67,8 @@ d:\My_Ai_Agent/
 ├── main.py                 # Entry point - starts the interactive chat loop
 ├── requirements.txt        # Python dependency manifest
 ├── README.md              # Project documentation and guide
-├── DOCUMENTATION.md        # Comprehensive implementation detail docs
 ├── .env                   # Configuration & API keys (local-only, ignored by Git)
-├── .gitignore             # Git ignore rules for virtual environments, keys, and cache
+├── .gitignore             # Git ignore rules for virtual environments, keys, cache, and documentation
 │
 └── app/                   # Main application package
     ├── builders/          # Context and prompt template builders
@@ -169,7 +168,7 @@ Defaults are configured in [constants.py](file:///d:/My_Ai_Agent/app/configurati
 ## 🔒 Security & Sandbox Rules
 
 *   **FileSystem Tool Constraint:** File operations are restricted to `D:` drive by default (defined in `constants.py`). Accessing directories outside of the configured root throws a permission violation.
-*   **Git Hygiene:** The `.env` file is explicitly ignored in [.gitignore](file:///d:/My_Ai_Agent/.gitignore) to prevent accidental leak of API keys.
+*   **Git Hygiene:** The `.env` file and documentation files (`DOCUMENTATION.md`, `DOCUMENTATION.docx`) are explicitly ignored in [.gitignore](file:///d:/My_Ai_Agent/.gitignore) to prevent accidental leak of API keys and keep the repository clean.
 
 ---
 
