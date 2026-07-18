@@ -92,7 +92,7 @@ Ensure you have **Python 3.10** or higher installed.
 ### 2. Clone and Navigate
 Clone the repository to your local machine:
 ```bash
-git clone <your-repository-url>
+git clone https://github.com/n-r-kondapalli-21/AI_Agent.git
 cd My_Ai_Agent
 ```
 
