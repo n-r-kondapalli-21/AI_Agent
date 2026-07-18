@@ -18,5 +18,7 @@ __pycache__/
 build/
 dist/
 
-DOCUMENTATION.docx/
-DOCUMENTATION.md/
+# Ignore documentation
+DOCUMENTATION.docx
+
+DOCUMENTATION.md
